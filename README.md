@@ -128,9 +128,7 @@ Input Images (32x32x3)
 
 ### Prerequisites
 
-* Python 3.9+
-
-* TensorFlow 2.x, scikit-learn, matplotlib
+* Python 3.11+
 
 
 
@@ -142,8 +140,17 @@ Input Images (32x32x3)
 
    cd vgg16-transfer-learning-cifar10
 
+2. Create and activate a virtual environment:
+
+   Windows:
+      python -m venv venv
+      .\venv\Scripts\activate
+
+3. Install required dependencies:
+
+   pip install -r requirements.txt
 
 
-2. Run the main evaluation script:
+4. Run the main evaluation script:
 
    python main.py
